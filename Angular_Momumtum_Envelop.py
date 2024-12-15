@@ -36,7 +36,7 @@ distances = np.sqrt(x**2 + y**2 + z**2)
 
 # Plot Settings
 ax0 = fig0.add_subplot(111, projection='3d')
-scatter = ax0.scatter(x, y, z, c=distances, cmap='coolwarm', edgecolor='none', alpha=0.7)
+scatter = ax0.scatter(x, y, z, c=distances, cmap='coolwarm', edgecolor='none', alpha=0.6)
 ax0.set_title("Angular Momentum Envelope", fontsize=14, pad=20)  # Add padding to the title
 
 # Set axes labels with additional padding
@@ -81,7 +81,7 @@ distances_valid = np.sqrt(x_valid**2 + y_valid**2 + z_valid**2)
 
 # Plot Settings
 axx = figx.add_subplot(111, projection='3d')
-scatter = axx.scatter(x_valid, y_valid, z_valid, c=distances_valid, cmap='coolwarm', edgecolor='none', alpha=0.7)
+scatter = axx.scatter(x_valid, y_valid, z_valid, c=distances_valid, cmap='coolwarm', edgecolor='none', alpha=0.6)
 axx.set_title("3D Surface Plot with Slicing on X=0", fontsize=14, pad=20)  # Add padding to the title
 
 # Set axes labels with padding
@@ -134,7 +134,7 @@ distances_valid = np.sqrt(x_valid**2 + y_valid**2 + z_valid**2)
 
 # Plot Settings
 axy = figy.add_subplot(111, projection='3d')
-scatter = axy.scatter(x_valid, y_valid, z_valid, c=distances_valid, cmap='coolwarm', edgecolor='none', alpha=0.7)
+scatter = axy.scatter(x_valid, y_valid, z_valid, c=distances_valid, cmap='coolwarm', edgecolor='none', alpha=0.6)
 axy.set_title("3D Surface Plot with Slicing on Y=0", fontsize=14, pad=20)
 
 # Set axes labels with padding
@@ -183,7 +183,7 @@ distances_valid = np.sqrt(x_valid**2 + y_valid**2 + z_valid**2)
 
 # Plot Settings
 axz = figz.add_subplot(111, projection='3d')
-scatter = axz.scatter(x_valid, y_valid, z_valid, c=distances_valid, cmap='coolwarm', edgecolor='none', alpha=0.7)
+scatter = axz.scatter(x_valid, y_valid, z_valid, c=distances_valid, cmap='coolwarm', edgecolor='none', alpha=0.6)
 axz.set_title("3D Surface Plot with Slicing on Z=0", fontsize=14, pad=20)
 
 # Set axes labels with padding
@@ -192,7 +192,7 @@ axz.set_ylabel('Y-axis (Nms)', fontsize=12, labelpad=20)
 axz.set_zlabel('Z-axis (Nms)', fontsize=12, labelpad=20)
 
 # Set axes limits and appearance
-axz.view_init(-45, 10)
+axz.view_init(190, 135)
 
 # Configure axes to auto-adjust limits and use scientific notation for ticks
 axz.xaxis.set_major_formatter(formatter)
