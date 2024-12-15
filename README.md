@@ -27,3 +27,15 @@ To use it:
 ![Example_Y](https://github.com/user-attachments/assets/2baf8e8b-9c3f-46a7-9302-0c1b2f30bfdd)
 
 ![Example_Z](https://github.com/user-attachments/assets/1c01d350-1428-430c-b537-c73d0a85ab73)
+
+7. Prints in the terminal:
+
+```
+Processing it1 (adj): 100%|████████████████████████████████████████████████████████████████████████| 72/72 [00:00<00:00, 1629.97it/s] 
+
+X-axis Size for the Angular Momentum Envelope: 1.6000e+02
+Y-axis Size for the Angular Momentum Envelope: 1.6000e+02
+Z-axis Size for the Angular Momentum Envelope: 1.6000e+02
+
+Radius of the inscribed sphere: 1.1312e+02
+```
