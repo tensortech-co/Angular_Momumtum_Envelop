@@ -20,11 +20,10 @@ To use it:
 }
 ```
 
-![Example_Full](https://github.com/user-attachments/assets/c65717ad-542d-4c39-847d-c1421a55cb88)
+![Example_Full](https://github.com/user-attachments/assets/23e4b5e2-f28b-42b2-b17d-768f2f851fd4)
 
-![Example_X](https://github.com/user-attachments/assets/aafb7663-81c1-44f8-a124-2c4642690928)
+![Example_X](https://github.com/user-attachments/assets/5e7c35ef-f427-402d-a72a-1991a68cc0c9)
 
-![Example_Y](https://github.com/user-attachments/assets/06efbb73-b0fb-4d53-8e2e-c123d955c9ad)
+![Example_Y](https://github.com/user-attachments/assets/2baf8e8b-9c3f-46a7-9302-0c1b2f30bfdd)
 
-![Example_Z](https://github.com/user-attachments/assets/c91690d2-c553-427b-b64f-ff0afcb14d20)
-
+![Example_Z](https://github.com/user-attachments/assets/1c01d350-1428-430c-b537-c73d0a85ab73)
