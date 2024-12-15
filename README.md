@@ -26,4 +26,5 @@ To use it:
 
 ![Example_Y](https://github.com/user-attachments/assets/06efbb73-b0fb-4d53-8e2e-c123d955c9ad)
 
-![Example_Z](https://github.com/user-attachments/assets/3f3699a3-7867-4a9e-a79c-543477ad29c6)
+![Example_Z](https://github.com/user-attachments/assets/c91690d2-c553-427b-b64f-ff0afcb14d20)
+
