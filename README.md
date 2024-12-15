@@ -8,6 +8,7 @@ To use it:
 5. Then run the file od "Angular_Momumtum_Envelop.py". You should get the following figures.
 6. Settings for the example figures:
 
+```json
 { 
     "Skew Angle":53.13,
     "Max. Angular Momemtum per CMG":100,
