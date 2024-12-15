@@ -1,7 +1,7 @@
-This code is designed for rendering the angular momentum envelop for various setups of CMG clusters.
+This code is designed to render the angular momentum envelope for various setups of CMG clusters.
 To use it:
 
-1. firstly, you need to adjust settings in the "Settings.json" file.
+1. Firstly, you need to adjust the settings in the "Settings.json" file.
 2. There are two choices for the "Cluster Combination", "adj" or "pyr." Meaning the "Adjacent Pair(2x)" or "Pyramid Cluster(4x)" of the CMG. The adjacent pair combination of CMG is #1 and #4 CMG in "A Control Moment Gyro (CMG) Based Attitude Control System (ACS) for Agile Small Satellites": https://openresearch.surrey.ac.uk/esploro/outputs/doctoral/A-Control-Moment-Gyro-CMG-Based/99516248502346
 3. There are two choices for the "Cluster Style", "conv" or "hans." This means the "Conventional" or "Hanspeter" way of defining skew angle. (beta)
 4. There are two choices for the "Speed Type", "CS" or "VS." Meaning "Constant-Speed" or "Variable-Speed."
@@ -18,6 +18,7 @@ To use it:
     "Cluster Style":"conv",
     "Speed Type":"CS"
 }
+```
 
 ![Example_Full](https://github.com/user-attachments/assets/c65717ad-542d-4c39-847d-c1421a55cb88)
 
