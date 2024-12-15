@@ -1,0 +1,9 @@
+{ 
+    "Skew Angle":53.13,
+    "Max. Angular Momemtum per CMG":100,
+    "Delta H for Simulation":0.1,
+    "Delta Theta for Simulation":5,
+    "Cluster Combination":"adj",
+    "Cluster Style":"conv",
+    "Speed Type":"CS"
+}
