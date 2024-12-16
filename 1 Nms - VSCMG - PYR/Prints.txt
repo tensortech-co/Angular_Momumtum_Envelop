@@ -1,0 +1,5 @@
+X-axis Size for the Angular Momentum Envelope: 3.1271e+00
+Y-axis Size for the Angular Momentum Envelope: 3.1271e+00
+Z-axis Size for the Angular Momentum Envelope: 3.1606e+00
+
+Radius of the inscribed sphere: 2.9056e+00

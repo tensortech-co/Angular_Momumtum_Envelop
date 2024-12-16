@@ -1,0 +1,9 @@
+{ 
+    "Skew Angle":53.13,
+    "Max. Angular Momemtum per CMG":1,
+    "No. of Delta H Segment":4,
+    "No. of Delta Theta Segment":10,
+    "Cluster Combination":"pyr",
+    "Cluster Style":"conv",
+    "Speed Type":"VS"
+}
