@@ -100,10 +100,10 @@ class profile_forming:
         self.settings = settings_from_json()
 
         # Extract the setting data
-        self.skew_angle = self.settings["Skew Angle"]    # unit: deg
-        self.max_H = self.settings["Max. Angular Momemtum per CMG"]    # unit: Nms
-        self.d_H = self.settings["Delta H for Simulation"]    # a scale factor ranging from 0 to 1
-        self.d_theta = self.settings["Delta Theta for Simulation"]    # unit: deg
+        self.skew_angle = self.settings['Skew Angle']    # unit: deg
+        self.max_H = self.settings['Max. Angular Momemtum per CMG']    # unit: Nms
+        self.d_H = self.settings['No. of Delta H Segment']    # a scale factor ranging from 0 to 1
+        self.d_theta = self.settings['No. of Delta Theta Segment']    # unit: deg
         self.clu_comb = self.settings['Cluster Combination']
         self.clu_styl = self.settings['Cluster Style']
         self.clu_spd = self.settings['Speed Type']
@@ -111,8 +111,8 @@ class profile_forming:
     def simulation(self):
 
         # Parameters Setup
-        self.theta = np.arange(0, 360 + self.d_theta, self.d_theta)[:-1]
-        self.h = np.arange(0, self.max_H, self.max_H * self.d_H)[:-1]
+        self.theta = np.linspace(0,360-360/self.d_theta,self.d_theta-1)
+        self.h = np.linspace(0,self.max_H,self.d_H)
         self.N_theta = len(self.theta)
         self.N_h = len(self.h)
         self.config = {'Cluster Combination':self.clu_comb,    # could be adjacant pair 'adj' or pyramiad cluster 'pyr'
