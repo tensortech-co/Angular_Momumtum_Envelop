@@ -10,18 +10,22 @@ To use it:
 
 ```json
 { 
-    "Skew Angle":63.43,
+    "Skew Angle":53.13,
     "Max. Angular Momemtum per CMG":1,
-    "No. of Delta H Segment":20,
-    "No. of Delta Theta Segment":120,
-    "Cluster Combination":"3RW",
+    "No. of Delta H Segment":2,
+    "No. of Delta Theta Segment":20,
+    "Cluster Combination":"pyr",
     "Cluster Style":"conv",
-    "Speed Type":"CS",
+    "Speed Type":"VS",
     "Wrap Shape N_theta":9,
     "Wrap Shape N_phi":15
 }
 ```
 
+![Z](https://github.com/user-attachments/assets/d9f6d943-40d2-4ed3-8d14-30f1adca0694)
+![Y](https://github.com/user-attachments/assets/ee64c501-2672-4e90-82e2-3754bd1fc04e)
+![X](https://github.com/user-attachments/assets/25eeddba-5a35-4822-8a1c-5c39507794a7)
+![Full](https://github.com/user-attachments/assets/326898f4-99d5-4968-828b-bb1c00affe80)
 
 
 7. Prints in the terminal:
